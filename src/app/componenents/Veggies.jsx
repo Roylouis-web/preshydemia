@@ -28,7 +28,7 @@ const Veggies = () => {
 
         window.addEventListener('resize', setNumber);
     
-    }, [window.innerWidth]);
+    }, [perPage]);
     
 
     return (

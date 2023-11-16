@@ -27,7 +27,7 @@ const Trending = () => {
 
         window.addEventListener('resize', setNumber);
     
-    }, [window.innerWidth]);
+    }, [perPage]);
     
 
     return (

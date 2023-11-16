@@ -14,7 +14,7 @@ const Dish = () => {
 
     useEffect(() => {
         ((async () => setItem(await getDish(id)))());
-    }, [])
+    }, [id])
 
 
     return <div className="flex mt-12 pl-6 lg:mb-32 pb-10">

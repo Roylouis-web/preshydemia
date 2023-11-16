@@ -53,7 +53,7 @@ const Login = () => {
                 <button className="bg-white dark:bg-black dark:text-white text-center w-full p-1 rounded-xl hover:bg-gray-900">Login</button>
                 <br />
                 <br />
-                <small className="font-bold">Don't have an account? <Link href="/register"><strong>Register</strong></Link></small>
+                <small className="font-bold">Don&apos;t have an account? <Link href="/register"><strong>Register</strong></Link></small>
             </form>
         </div>
     )

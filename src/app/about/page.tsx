@@ -23,7 +23,7 @@ const About = () => {
                 </div>
                 <p className="font-semibold
                 text-lg sm:text-2xl
-                font-extrabold flex justify-center items-center font-mono">I'm Precious Uchechi Ndumechi, a medical practitioner from Eastern Nigeria and a huge polymath. My love for learning new things triggered the spearheading of Preshydemia which is an online learning platform that covers topics related to a wide range of subjects like Biology, Chemistry, Physics, Geography, Baking and so much more. Preshydemia seeks to break the barrier between students and free quality learning resources as we ensure that all courses offered are absolutely free of charge. Try Preshydemia today and broaden your knowledge in a variety of fields.</p>
+                font-extrabold flex justify-center items-center font-mono">I&apos;m Precious Uchechi Ndumechi, a medical practitioner from Eastern Nigeria and a huge polymath. My love for learning new things triggered the spearheading of Preshydemia which is an online learning platform that covers topics related to a wide range of subjects like Biology, Chemistry, Physics, Geography, Baking and so much more. Preshydemia seeks to break the barrier between students and free quality learning resources as we ensure that all courses offered are absolutely free of charge. Try Preshydemia today and broaden your knowledge in a variety of fields.</p>
             </article>
         </section>
     )
