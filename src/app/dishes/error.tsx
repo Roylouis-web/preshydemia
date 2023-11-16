@@ -16,7 +16,7 @@ const Error = ({
  
   return (
     <div className='bg-slate-500 fixed top-32 min-h-screen z-10 w-full flex justify-center items-center text-white'>
-      <h1 className='text-2xl sm:text-3xl'>Daily limit reached, try again tomorrow!</h1>
+      <h1 className='text-2xl sm:text-3xl lg:text-4xl'>Daily limit reached, try again tomorrow!</h1>
     </div>
   )
 }
