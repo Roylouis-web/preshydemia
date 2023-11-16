@@ -17,20 +17,20 @@ const Dish = () => {
     }, [id])
 
 
-    return <div className="flex mt-12 pl-6 lg:mb-32 pb-10">
-        <div className='p-2'>
+    return <div className="flex mt-12 sm:pl-6 lg:mb-32 pb-10 place-content-center sm:gap-6 lg:gap-24">
+        <div className='pl-2'>
             <Image
                 src={item.image}
-                width={250}
-                height={250}
+                width={500}
+                height={500}
                 priority
                 alt="Items"
                 className="w-32 h-32 text-white lg:w-56 lg:h-56 lg:text-2xl text-xl rounded-xl relative">
             </Image>
-            <p className=" text-white top-3/4 sm:text-xl text-lg ">{item.title}</p>
+            <p className=" text-white top-3/4 sm:text-xl text-lg max-w-[180px]">{item.title}</p>
         </div>
         <div>
-            <div className="text-white flex mb-5 gap-6 p-2">
+            <div className="text-white flex mb-5 sm:gap-6 p-2">
                 <button className={choice === "instructions" ? `${buttonStyle} gradient` : buttonStyle} onClick={() => setChoice("instructions")}>Instructions</button>
                 <button className={choice === "ingredients" ? `${buttonStyle} gradient` : buttonStyle} onClick={() => setChoice("ingredients")}>Ingredients</button>
             </div>

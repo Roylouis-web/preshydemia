@@ -9,7 +9,7 @@ import { getVegetarian } from "../../../lib/api";
 
 
 const Veggies = () => {
-    const [items, setItems] = useState(state);
+    const [items, setItems] = useState([]);
     const [perPage, setPerPage] = useState(window.innerWidth <= 648 ? 2 : window.innerWidth <= 1024 ? 4 : 5);
 
     useEffect(() => {
