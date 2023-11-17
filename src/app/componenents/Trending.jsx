@@ -34,7 +34,7 @@ const Trending = () => {
         <div className="mt-8 p-2">
             <h1 className="dark:text-white text-black lg:text-3xl text-2xl">Trending</h1>
             <div className="mt-8">
-                <Splide options={{ perPage, pagination: false, arrows: false, drag: 'free', gap: 0 }}>
+                <Splide options={{ perPage, arrows: false, drag: 'free', gap: 0 }}>
                     {items.map((item) => {
                         return (
                             <SplideSlide key={crypto.randomUUID()}>
