@@ -33,7 +33,7 @@ const Veggies = () => {
 
     return (
         <div className="mt-8 p-2">
-            <h1 className="text-white lg:text-3xl text-2xl">Our veggie picks</h1>
+            <h1 className="dark:text-white text-black lg:text-3xl text-2xl">Our veggie picks</h1>
             <div className="mt-8">
                 <Splide options={{ perPage, pagination: false, arrows: false, drag: 'free', gap: 1 }}>
                     {items.map((item) => {
