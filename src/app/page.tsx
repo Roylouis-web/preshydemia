@@ -7,7 +7,7 @@ const Home = () => {
             <section className="p-6">
                 <h1 className="text-2xl sm:text-4xl mb-10">A Free Online Learning Platform</h1>
                 <article>
-                    <p className="text-lg bg-slate-950 p-10 rounded-xl hover:bg-opacity-80 sm:text-3xl flex justify-center items-center font-mono p-8 ">Used by students all over the world to broaden their knowledge in the field of catering.</p>
+                    <p className="text-lg dark:bg-slate-950 p-10 bg-cyan-200 rounded-xl hover:bg-opacity-80 sm:text-3xl flex justify-center items-center font-mono p-8 ">Used by students all over the world to broaden their knowledge in the field of catering.</p>
                 </article>
             </section>
 

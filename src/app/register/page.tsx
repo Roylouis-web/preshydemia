@@ -86,7 +86,7 @@ const Register = () => {
                 />
                 <br />
                 <br />
-                <button className="bg-white dark:bg-black dark:text-white text-center w-full p-1 rounded-xl hover:bg-gray-900">Register</button>
+                <button className="bg-black text-white text-center w-full p-1 rounded-xl hover:bg-gray-900">Register</button>
                 <br />
                 <br />
                 <small className="font-bold">Already have an account? <Link href="/login"><strong>Login</strong></Link></small>

@@ -15,7 +15,7 @@ const Links = () => {
     }
 
     return (
-        <header className="bg-blue-950 dark:text-white p-10 w-full z-10 top-0" id="link">
+        <header className="dark:bg-blue-950 bg-cyan-800 text-white p-10 w-full z-10 top-0" id="link">
             <section className="flex justify-between items-center lg:justify-evenly">
                 <Link href="/" className="text-3xl lg:text-4xl p-2">Preshydemia 🍽️</Link>
                 <nav className="flex justify-between w-1/2 hidden sm:flex sm:text-xl lg:text-3xl shrink" aria-label="main">

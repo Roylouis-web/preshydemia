@@ -35,14 +35,14 @@ const Dish = () => {
                 <button className={choice === "ingredients" ? `${buttonStyle} gradient` : buttonStyle} onClick={() => setChoice("ingredients")}>Ingredients</button>
             </div>
             {choice === "instructions" ? (
-                <div className='text-white max-w-[180px] lg:text-2xl lg:max-w-4xl p-2'>
+                <div className='dark:text-white text-black max-w-[180px] lg:text-2xl lg:max-w-4xl p-2'>
                     <h3 dangerouslySetInnerHTML={{ __html: item.summary }}></h3>
                     <h3 dangerouslySetInnerHTML={{ __html: item.instructions }}></h3>
                 </div>
             ) : (<ul className='max-w-[180px] lg:text-2xl lg:max-w-4xl p-2'>
                 {item.extendedIngredients.map((ingredient) => {
                     return (
-                        <li key={ingredient.id} className='text-white'>{ingredient.original}</li>
+                        <li key={ingredient.id} className='dark:text-white text-black'>{ingredient.original}</li>
                     );
                 })}
             </ul>)}
