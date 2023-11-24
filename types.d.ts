@@ -1,4 +1,4 @@
-interface Item {
+type Item = {
       vegetarian: boolean,
       vegan: boolean,
       glutenFree: boolean,
@@ -81,7 +81,7 @@ interface Item {
         spoonacularSourceUrl: string,
       };
 
-interface Item2 {
+type Item2 = {
   id: number,
   title: string,
   image: string,

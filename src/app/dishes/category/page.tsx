@@ -5,12 +5,9 @@ import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react"
 import { getCategory } from '../../../../lib/api';
 
-type State = never[] | Item2;
-
 const Category = () => {
     const category = useSearchParams().get('category') as string;
-    const state: State = [];
-    const [items, setItems] = useState(state);
+    const [items, setItems] = useState<never[] | Item2>([]);
     
     useEffect(() => {
         const category2 = localStorage.getItem(category);
