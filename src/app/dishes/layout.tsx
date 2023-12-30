@@ -13,7 +13,7 @@ const DishesLayout = ({
     children: React.ReactNode
 }) => {
     return (
-        <div>
+        <div className='grow'>
             <Search />
             <Filters />
             {children}

@@ -16,7 +16,7 @@ const RootLayout = ({
 }) => {
   return (
     <html lang="en">
-      <body className='dark:bg-black min-h-screen flex-col flex justify-between'>
+      <body className='dark:bg-black min-h-screen flex-col flex'>
         <NavBar />
         {children}
         <Footer />

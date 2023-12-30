@@ -23,7 +23,7 @@ const Category = () => {
     }, [category]);
 
     return (
-        <motion.div className="mt-8 p-6"
+        <motion.div className="p-6"
             key="my_key"
             animate={{ opacity: 1 }}
             initial={{ opacity: 0 }}

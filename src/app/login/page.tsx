@@ -20,8 +20,8 @@ const Login = () => {
     }
 
     return (
-        <div className="flex justify-center items-center text-black text-lg sm:text-xl lg:pt-[10%] lg:pb-[10%] pt-[25%] pb-[50%]">
-            <form onSubmit={handleSubmit} className="bg-indigo-400 p-6 sm:p-16 rounded-l-3xl rounded-r-3xl">
+        <div className="flex justify-center items-center text-black text-lg sm:text-xl grow">
+            <form onSubmit={handleSubmit} className="bg-indigo-400 p-6 sm:p-16 rounded-l-3xl rounded-r-3xl mt-20 mb-20">
                 <h1 className="mb-8 text-xl font-bold text-center sm:text-3xl">Login</h1>
                 <input
                     type="text"

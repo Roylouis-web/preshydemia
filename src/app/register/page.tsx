@@ -23,8 +23,8 @@ const Register = () => {
     }
 
     return (
-        <div className="flex justify-center items-center text-black text-lg sm:text-2xl sm:text-xl p-16">
-            <form onSubmit={handleSubmit} className="bg-indigo-400 p-6 sm:p-16 rounded-l-3xl rounded-r-3xl mb-6">
+        <div className="flex justify-center items-center text-black text-lg sm:text-2xl sm:text-xl mt-20 mb-20 grow">
+            <form onSubmit={handleSubmit} className="bg-indigo-400 p-6 sm:p-16 rounded-l-3xl rounded-r-3xl">
                 <h1 className="text-xl font-bold text-center mb-6 sm:text-3xl">Register</h1>
                 <input
                     type="text"

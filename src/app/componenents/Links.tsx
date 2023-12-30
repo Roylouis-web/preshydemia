@@ -15,9 +15,9 @@ const Links = () => {
     }
 
     return (
-        <header className="dark:bg-blue-950 bg-cyan-800 text-white p-10 w-full z-10 top-0" id="link">
-            <section className="flex justify-between items-center lg:justify-evenly">
-                <Link href="/" className="text-3xl lg:text-4xl p-2">Preshydemia 🍽️</Link>
+        <header className="dark:bg-blue-950 bg-cyan-800 text-white p-7 w-full z-10 top-0" id="link">
+            <section className="flex justify-between items-center lg:flex-none">
+                <Link href="/" className="text-3xl lg:text-4xl p-2 mr-auto">Preshydemia 🍽️</Link>
                 <nav className="flex justify-between w-1/2 hidden sm:flex sm:text-xl lg:text-3xl shrink" aria-label="main">
                     <div className="relative flex">
                         <Link href="/dishes" className={pathName === "/dishes" ? `${linkStyle} before:scale-100`: linkStyle }>Dishes</Link>
@@ -28,7 +28,7 @@ const Links = () => {
                     <div className="relative">
                         <Link href="/contact" className={pathName === "/contact" ? `${linkStyle} before:scale-100`: linkStyle }>Contact</Link>
                     </div>
-                    <div className="relative">
+                    <div className="relative lg:mr-4">
                         <Link href="/login" className={pathName === "/login" ? `${linkStyle} before:scale-100`: linkStyle }>Login</Link>
                     </div>
                 </nav>
